@@ -1,5 +1,3 @@
-﻿# ICDAR-2026---CircleID-Writer-Identification-IITP_CV_02-Submission
-
 <div align="center">
   
   ## Open-Set Writer Identification
@@ -13,8 +11,8 @@
   </p>
 
   <p align="center">
-    <a href="https://www.kaggle.com/"><img src="https://img.shields.io/badge/Kaggle_Rank-19th-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle Rank"></a>
-    <img src="https://img.shields.io/badge/Macro_F1_Score-0.61270-4CAF50?style=for-the-badge" alt="F1 Score">
+    <a href="https://www.kaggle.com/"><img src="https://img.shields.io/badge/Kaggle_Rank-27th-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle Rank"></a>
+    <img src="https://img.shields.io/badge/Macro_F1_Score-0.42593-4CAF50?style=for-the-badge" alt="F1 Score">
     <img src="https://img.shields.io/badge/IIT_Patna-AI_%26_DS-E53935?style=for-the-badge" alt="IIT Patna">
   </p>
   
