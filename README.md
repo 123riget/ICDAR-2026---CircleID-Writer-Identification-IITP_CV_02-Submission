@@ -25,3 +25,19 @@ This repository contains the code, experiments, and architectural progression fo
 Achieved **Rank 27** on the private leaderboard with a Macro F1 Score of **0.42593**
 
 ---
+
+### The "Stranger Problem" & Open-Set Recognition
+
+> **The Core Challenge:** *How do you teach a neural network to recognize someone it has never seen before?*
+
+Standard deep learning classifiers are fundamentally designed for **closed-world problems**-they are forced to put every input into a predefined box.
+
+| The Flaw of Standard CNNS | Our Anomaly Detection Paradigm | 
+| :--- | :--- | 
+| When faced with an unknow writer (`-1`), a standard CNN confidently **forces the stranger** into whichever known class has the most similar geometric shapes (e.g., *"They both draw loops, so it must be writer 14"*). | We engineered our pipeline to act as an **Anomaly Detector**. Instead of trying to memorize strangers, we mapped the strict biometric boundaries of our 44 known writers and treated anything outside those bounds as an anomaly. |
+
+<br>
+<div align="center">
+  <img src="https://img.shields.io/badge/Paradigm_Shift-Spatial_Shapes_to_Biometric_Physics-FF9800?style=for-the-badge" alt="Paradigm Shift">
+</div>
+<br>
