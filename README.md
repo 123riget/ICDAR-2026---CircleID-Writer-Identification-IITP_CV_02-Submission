@@ -41,7 +41,7 @@ Standard deep learning classifiers are fundamentally designed for **closed-world
   <img src="https://img.shields.io/badge/Paradigm_Shift-Spatial_Shapes_to_Biometric_Physics-FF9800?style=for-the-badge" alt="Paradigm Shift">
 </div>
 <br>
-<h2 align="center">🚀 Architectural Evolution & Methodology</h2>
+<h2 align="center">Architectural Evolution & Methodology</h2>
 <p align="center"><i>Progressing from physical feature engineering, through metric learning autopsies, to our highest-scoring adversarial architecture.</i></p>
 <br>
 
@@ -50,9 +50,9 @@ Standard deep learning classifiers are fundamentally designed for **closed-world
 
 <table width="100%">
   <tr>
-    <th width="33%"><div align="center">🚧 The Hurdle</div></th>
-    <th width="33%"><div align="center">🛠️ The Engineering Approach</div></th>
-    <th width="33%"><div align="center">📈 The Impact</div></th>
+    <th width="33%"><div align="center">The Hurdle</div></th>
+    <th width="33%"><div align="center">The Engineering Approach</div></th>
+    <th width="33%"><div align="center">The Impact</div></th>
   </tr>
   <tr>
     <td>Strangers and forgers can easily trace the geometric <i>shape</i> of a letter to fool a standard spatial CNN.</td>
