@@ -110,10 +110,15 @@ While the Pyramidal Metric Network successfully built distance-based boundaries,
     </td>
   </tr>
   <tr>
-    <td clospan="2" align="center">
+    <td width="50%" align="center" valign="top">
       <br>
-      <img src="Plots/best_siamese_pyramidal.png" alt="Pyramidal t-SNE Autopsy" width="85%">
-      <br><br><i> The Pyramidal Attention network successfully isolating writers and leaving the "ocean" empty for strangers.</i>
+      <img src="Plots/Siamese_Dense_Image.png" alt="Dense t-SNE - The Hairball" width="95%">
+      <br><br><i><b>Before:</b> Standard MLPs collapsed, creating a tangled "hairball" due to scanner noise.</i>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <br>
+      <img src="Plots/best_siamese_pyramidal.png" alt="Pyramidal t-SNE - The Islands" width="95%">
+      <br><br><i><b>After: </b> Pyramidal Attention successfully isolated writers, leaving the ocean empty for strangers.</i>
     </td>
   </tr>
 </table>
@@ -137,10 +142,22 @@ While the Pyramidal Metric Network successfully built distance-based boundaries,
 │   ├── pressure_map.png
 │   └── Spectrogram_method.png
 ├── notebook.ipynb
+├── requirements.txt
 └── README.md</code></pre>
     </td>
     <td width="50%" valign="top">
-      <b>Quick Start</b>
+      <b>Quick Start(</b>
+      <br><br>
+      The Code is given in notebook.ipynb file and since the notebook was executed on Param Rudra facility at IIT Patna so the path will most probably not match. The notebook is for reference only and one can check how the model was trained and what was the workflow although by modifying the path you can actually run the model in your local machine. Ensure that you have OpenCV and other requirements are installed beforehand.
+    </td>
   </tr>
 </table>
 <br>
+
+<hr> 
+
+<div align="center">
+<b> Made by IITP_CV_02</b><br>
+<i>B.Tech Batch in Artificial Intelligence & Data Science (3rd year)</i><br>
+<i>Indian Institute of Technology (IIT) Patna</i><br><br>
+</div>
