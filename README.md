@@ -94,3 +94,53 @@ While the Pyramidal Metric Network successfully built distance-based boundaries,
   </tr>
 </table>
 <br>
+
+<h2 align="center"> Autopsy Visualization (t-SNE)</h2>
+<p align="center"><i>Visually debugging the mathematical embedding space of our Metric Learning models.</i>
+
+<table width="100%">
+  <tr>
+    <td width="50% valign="top">
+      <b> Mode Collapse (DenseNet)</b><br>
+      Standard MLPs failed to sepearate writers with overlapping low-frequency traits. The scanner noise overpowered the signal, resulting in  tangled "hairball" of classes where anomaly detection was impossible.
+    </td>
+    <td width="50%" valign="top">
+      <b> Pyramidal Success (Attention)</b><br>
+      The Multi-Scale Attention mechansim successfully rescued  the hardest classes. By routing frequencies dynamically, it broke the hairballs and formed distinct spatial archipelagos, proving the boundaries were tight. Although it failed in the competition but it proved that spectrogram is quite an effective technique in case of handwriting detection.
+    </td>
+  </tr>
+  <tr>
+    <td clospan="2" align="center">
+      <br>
+      <img src="Plots/best_siamese_pyramidal.png" alt="Pyramidal t-SNE Autopsy" width="85%">
+      <br><br><i> The Pyramidal Attention network successfully isolating writers and leaving the "ocean" empty for strangers.</i>
+    </td>
+  </tr>
+</table>
+<br>
+<h2 align="center"> Repository Structure & Setup</h2>
+<table width = "50%" valign="top">
+  <tr>
+    <td width = "50%" valign="top">
+      <b>Project Tree</b>
+  <pre><code>├── icdar-2026-circle-writer-identification/
+│   ├── train.csv
+│   ├── test.csv
+│   ├── additional_train.csv
+│   ├── sample_submission.csv
+│   └── images/
+├── Submissions/
+│   ├── submission.csv
+│   ├── submission(3).csv
+│   └── submission_pyramidal.csv
+├── Plots/
+│   ├── pressure_map.png
+│   └── Spectrogram_method.png
+├── notebook.ipynb
+└── README.md</code></pre>
+    </td>
+    <td width="50%" valign="top">
+      <b>Quick Start</b>
+  </tr>
+</table>
+<br>
